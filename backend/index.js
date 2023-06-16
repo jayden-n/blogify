@@ -4,6 +4,7 @@ const dotenv = require('dotenv').config();
 
 const cors = require('cors');
 const authController = require('./controllers/authController');
+const blogController = require('./controllers/blogController');
 // Helps backend and client communicate
 // Port: 5000 - backend
 // Client: 3000 - client
@@ -28,7 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use('/auth', authController);
-
+app.use('/blog', blogController);
 // Connect server
 app.listen(process.env.PORT || 5001, () => {
   console.log('Server has been started!');
