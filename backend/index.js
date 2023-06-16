@@ -12,6 +12,7 @@ const app = express();
 // Connect db
 
 mongoose.set('strictQuery', false);
+
 const connectToMongo = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URL);
