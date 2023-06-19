@@ -3,13 +3,16 @@ import classes from './register.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { request } from '../../utils/fetchApi';
+import { register } from '../../redux/authSlice';
+import { useDispatch } from 'react-redux';
 
 const Register = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-  
+
   const handleRegister = async (e) => {
     e.preventDefault();
 
@@ -23,7 +26,8 @@ const Register = () => {
         email,
         password,
       });
-      console.log(data);
+      dispatch(register(data));
+      navigate('/');
     } catch (error) {
       console.error(error);
     }
@@ -36,7 +40,7 @@ const Register = () => {
         <form onSubmit={handleRegister}>
           <input
             type="text"
-            placeholder="Your name..."
+            placeholder="Username..."
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
