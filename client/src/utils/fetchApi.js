@@ -16,7 +16,7 @@ export const request = async (
       return data;
 
     case 'POST':
-      // if send form data, it is not content-type:application/json,
+      // if we send form data, it is not content-type:application/json,
       // hence the bonus param
       if (isNotStringified) {
         res = await fetch(BASE_URL + url, { headers, method, body });
