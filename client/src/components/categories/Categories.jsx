@@ -74,7 +74,7 @@ const Categories = () => {
               {filteredBlogs?.map((blog) => (
                 <div key={blog._id} className={classes.blog}>
                   <Link to={`/blogDetails/${blog?._id}`}>
-                    <img src={`http://localhost:5001/images/${blog?.photo}`} />
+                    <img src={`https://mern-blog-app-0t1o.onrender.com/images/${blog?.photo}`} />
                   </Link>
                   <div className={classes.blogData}>
                     <div className={classes.categoryAndMetadata}>
