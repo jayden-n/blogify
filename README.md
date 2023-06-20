@@ -21,12 +21,13 @@ Blogify is a [MERN-stack](https://www.mongodb.com/mern-stack) personal blogging 
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) version 5.1.0
 - [nodemon](https://github.com/remy/nodemon) version 2.0.20
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) version 9.0.0
+- 
 ## Features
 
 - Like & Un-like blog functionality 
 - Create / Read / Update / Delete blog operations (CRUD) 
 - Uploaded images are handled by Multer as a middleware module that is used with [Express.js](https://expressjs.com/)
-- Login / Register Functionality using [Redux Toolkit](https://redux-toolkit.js.org/) with Authentication using [JWT](https://jwt.io/) & Refresh Tokens
+- Login / Register functionality using [Redux Toolkit](https://redux-toolkit.js.org/) with Authentication using [JWT](https://jwt.io/) & Refresh Tokens
 
 ## Screenshots
 
