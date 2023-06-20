@@ -25,7 +25,8 @@ Blogify is a [MERN-stack](https://www.mongodb.com/mern-stack) personal blogging 
 ## Features
 
 - Like & Un-like blog functionality 
-- Create / Read / Update / Delete blog operations (CRUD) 
+- Create / Read / Update / Delete blog operations (CRUD)
+- Divided categories for users to easily find desired blogs
 - Uploaded images are handled by Multer as a middleware module that is used with [Express.js](https://expressjs.com/)
 - Login / Register functionality using [Redux Toolkit](https://redux-toolkit.js.org/) with Authentication using [JWT](https://jwt.io/) & Refresh Tokens
 
