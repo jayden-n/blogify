@@ -38,3 +38,11 @@ Blogify is a [MERN-stack](https://www.mongodb.com/mern-stack) personal blogging 
 <img width="1728" alt="Screenshot 2023-06-19 at 8 53 48 PM" src="https://github.com/jayden-n/blogify/assets/94060508/2b7fe8eb-2f9a-4eee-a45c-17d3dc418fa2">
 <img width="1728" alt="Screenshot 2023-06-19 at 8 54 06 PM" src="https://github.com/jayden-n/blogify/assets/94060508/f739d751-25c7-4f68-ab7d-721ef2534190">
 <img width="1727" alt="Screenshot 2023-06-19 at 8 57 39 PM" src="https://github.com/jayden-n/blogify/assets/94060508/f63b1ad9-177b-4aaa-a3d5-c2a2fd9672b1">
+
+## Contributing
+
+Pull requests are welcomed and highly appreciated. Before making any major changes, please feel free to open an issue and initiate a discussion about your ideas. Your valuable input and collaboration are greatly valued.
+
+## License
+
+This web app is available under [MIT](https://choosealicense.com/licenses/mit/).
