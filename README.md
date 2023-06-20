@@ -21,7 +21,7 @@ Blogify is a [MERN-stack](https://www.mongodb.com/mern-stack) personal blogging 
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) version 5.1.0
 - [nodemon](https://github.com/remy/nodemon) version 2.0.20
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) version 9.0.0
-- 
+
 ## Features
 
 - Like & Un-like blog functionality 
